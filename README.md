@@ -1,6 +1,6 @@
 # Simple TAR creator/extractor
 
-## install
+## Install
 ```
 go get -u github.com/Warashi/star
 ```
@@ -21,3 +21,7 @@ star -x [destination] < input.tar
 When you don't specify `destination`, current directory is used.
 If you want to compressed archive such as tar.gz, you must decompress with another tool.
 i.e. `gzip -dc input.tar.gz | star -x dest`
+
+## Special Thanks
+Code mainly taken from [here].(https://medium.com/@skdomino/taring-untaring-files-in-go-6b07cf56bc07)
+Thanks!!
