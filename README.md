@@ -23,5 +23,5 @@ If you want to compressed archive such as tar.gz, you must decompress with anoth
 i.e. `gzip -dc input.tar.gz | star -x dest`
 
 ## Special Thanks
-Code mainly taken from [here].(https://medium.com/@skdomino/taring-untaring-files-in-go-6b07cf56bc07)
+Code mainly taken from [here](https://medium.com/@skdomino/taring-untaring-files-in-go-6b07cf56bc07).
 Thanks!!
